@@ -1,0 +1,88 @@
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  margin-bottom: 50px;
+}
+
+.card {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  position: relative;
+  /*width: 30%;*/
+  border: 1px solid #909090;
+  border-radius: 5px;
+  padding: 20px;
+  font-family: sans-serif;
+}
+.card.checked {
+  opacity: 0.5;
+}
+
+.trash,
+.check {
+  position: absolute;
+  top: 10px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.trash {
+  right: 10px;
+  padding: 6px;
+  background-color: crimson;
+}
+
+.trash:hover {
+  background-color: #ac122c;
+}
+
+.check {
+  padding: 5px 6px;
+  right: 50px;
+  background-color: #00ba84;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 5px;
+  background-color: #0089ff;
+  color: #fff;
+  text-decoration: none;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #0070d5;
+}
+
+/*ADDCARD-PAGE*/
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.input,
+.btn-success {
+  font-size: 20px;
+  padding: 6px 8px;
+  border: 1px solid #009d00;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.input:focus,
+.btn-success:focus {
+  outline: none;
+}
+
+.btn-success {
+  padding: 6px 16px;
+  background-color: #009d00;
+  color: #fff;
+  cursor: pointer;
+}

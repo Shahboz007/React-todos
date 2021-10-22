@@ -1,0 +1,29 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border: 1px solid #7e7e7e;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+.input,
+.index {
+  margin-right: 8px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.remove-btn {
+  padding: 4px 8px;
+  background-color: red;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  opacity: 0.7;
+}
